@@ -1,16 +1,43 @@
 //
-//  Persona.h
-//  Personita
+
+//  Persona.h
+
+//  Personita
+
 //
-//  Created by Daniela Mendez on 28/01/25.
-//
+
+//  Created by redes04 on 22/01/25.
+
+// Nombre, edad y saludar
+
+
+
+
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface Persona : NSObject
 
-@end
 
-NS_ASSUME_NONNULL_END
+
+@property NSString *nombre;
+
+@property int edad;
+
+
+
+-(id) initWithNombre: (NSString *)nombre;
+
+
+
+-(id) initWithNombre: (NSString *)nombre Edad:(int) edad;
+
+
+
+-(void) saludar;
+
+
+
+@end
