@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
 @autoreleasepool {
     Persona *daniela;
     daniela = [Persona alloc];
-    daniela = [daniela initWithNombre:@"Daniela" Edad:20];
+    daniela = [daniela initWithNombre:@"Daniela Mendez" Edad:20];
     [daniela saludar];
     }
 return 0;
